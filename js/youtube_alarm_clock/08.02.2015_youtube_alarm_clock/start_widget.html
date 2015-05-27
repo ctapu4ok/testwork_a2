@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="js/swfobject.js"></script>
+    </head>
+
+    <body>
+    
+    <div class="center">
+        <div class="icon_w"></div>
+        <div class="page" id="theme">
+            <div class="page_wrapper">
+                <!-- content -->
+                <div class="content">
+                    <div class="logo"><div>Online Tube Alarm</div></div>
+                    <div id="center" class="center_side" style="display: none;">
+                        <div id="big_v_block">
+                            <div class="big_video" id="big_v"><img src="images/test.jpg" width="970px" /></div>
+                        </div>
+                        <div class="snoozing">
+                            Snoozing for: 
+                            <button id="id_2">2 min</button>
+                            <button id="id_5">5 min</button>
+                            <button id="id_10">10 min</button>
+                            <button id="id_15">15 min</button>
+                        </div>
+                        <div class="stop_alarm"><button id="big_stop">STOP ALARM</button></div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="left" class="left_side">
+                        <div class="panel">
+                        Set clip form 
+                            <select id="select_url">
+                                <option value="hBrOmKH2ga8">Aleah ~ Water and Wine</option>
+                                <option value="RZa9EV_ytkU">Aleah - My Will </option>
+                                <option value="qw2LU1yS7aw">Slipknot - Before I Forget</option>
+                                <option value="of4AkuGWH_s">Aleah - Vapour</option>
+                            </select>
+                        
+                            or
+                            
+                            Paste your URL
+                            <input type="text" id="url_area" />
+                            <button id="set_url">SET MY URL</button>
+                        </div>
+                        <div class="video" id="video_block">
+                            <div id="vb"></div>
+                        </div>
+                        <div class="panel2">
+                        <button id="test_clip">TEST YOUR CLIP</button>
+                        <button id="stop_playing">STOP PLAYING</button>
+                        </div>
+                        <div class="alarms">
+                            <table style="width: 100%;" id="alarms">
+                                <tr id="clear">
+                                    <td style="text-align: center; font-size: 20px; color: #ccc"><br /> ALARMS NOT FOUND</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="right" class="right_side">
+                        <span class="current_time_label">Current Time</span>
+                        <div class="current_time">
+                            <div class="time_now"><span id="time"></span></div>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <span class="alarm_time_label">Set your alarm</span>
+                        <div class="alarm_time">
+                            <div class="up_arrows">
+                                    <span style="position: absolute; margin-left: 19px;"><a href="#" id="h"><img src="images/up_arrow.png" /></a></span>
+                                    <span style="position: absolute; margin-left: 98px;"><a href="#" id="m"><img src="images/up_arrow.png" /></a></span>
+                                    <span style="position: absolute; margin-left: 177px;"><a href="#" id="s"><img src="images/up_arrow.png" /></a></span>
+                                </div>
+                            <div class="time_alarm"><span id="time_a"></span></div>
+                            <div class="down_arrows">
+                                    <span style="position: absolute; margin-left: 22px;"><a href="#" id="h"><img src="images/down_arrow.png" /></a></span>
+                                    <span style="position: absolute; margin-left: 101px;"><a href="#" id="m"><img src="images/down_arrow.png" /></a></span>
+                                    <span style="position: absolute; margin-left: 180px;"><a href="#" id="s"><img src="images/down_arrow.png" /></a></span>
+                                </div>
+                        </div>
+                        <div style="text-align: center;">
+                            <button id="update_time">Establish real time</button>
+                        </div>
+                        <div class="time_buttons">
+                                    Update
+                                    <button id="id_5">+5 MIN</button>
+                                    <button id="id_15">+15 MIN</button>
+                                    <button id="id_30">+30 MIN</button>
+                                    <button id="id_45">+45 MIN</button>
+                                </div>
+                        <div class="start_alarm">
+                            <button id="start_alarm">START ALARM</button>
+                        </div>
+                    
+                    
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <!-- /content -->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+{
+    "version": "1.0",
+    "manifest_version": 2,
+    "name": "Youtube alarm clock [FVD]",
+    "description": "Youtube alarm clock [FVD]",
+	"options_page": "options.html",
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "update_url": "http://clients2.google.com/service/update2/crx",
+    "background": {
+        "scripts": [
+            "welcome-mod.js", 
+            "widget.js", 
+            "link.js"
+        ]
+    },
+    "web_accessible_resources": [
+        "widget.html",
+        "images/settings.png", 
+        "options.html",
+        "start_widget.html"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.youtube.com https://s.ytimg.com https://apis.google.com; object-src 'self' https://www.youtube.com https://s.ytimg.com https://apis.google.com; ",
+    "permissions": [
+        "alarms", 
+        "storage",
+        "geolocation",
+        "http://*.youtube.com/*", 
+        "http://youtube.com/*", 
+        "https://*.youtube.com/*",
+        "https://gdata.youtube.com/feeds/*",
+        "https://youtube.com/*", 
+        "https://youtube.com/v/*",
+        "http://youtube.com/v/*",
+        "http://ytimg.com/*", 
+        "http://*.ytimg.com/*",
+        "http://fvdspeeddial.com/widgets/*",
+        "management", 
+        "tabs",
+        "webRequest"
+    ]
+}
